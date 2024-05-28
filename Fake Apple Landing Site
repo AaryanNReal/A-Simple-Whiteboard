@@ -1,0 +1,219 @@
+Html Side (Using Tailwind)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+    <style>
+        .margin-bottom-20 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="bg-green-200">
+    <nav class="flex justify-between bg-black">
+        <img src="/images/images.png" class="py-1 h-20">
+        <ul class="py-5 flex justify-end space-x-5 text-white">
+            <li>Home</li>
+            <li>About</li>
+            <li>Phone</li>
+            <div class="relative group ml-4">
+                <button class="bg-red-500 px-2 py-2 font-bold hover:inline">Contact</button>
+                <div class="hidden group-hover:block absolute bg-white shadow-lg mt-2 rounded">
+                    <a href="mailto:aaryansharmawork@gmail.com" class="text-black shadow-2xl px-2 py-2">Email</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="bg-pink-300 w-100 h-96 rounded-2xl">
+            <img src="/images/apple-iphone-x-pictures-5.png" class="float-right mx-5 my-4">
+            <div class="text-3xl pl-20 pt-28">
+                Best IPhone In The Town
+            </div>
+            <h4 class="pl-20 font-bold">
+                Buy The Iphone (Official Associate of Apple)
+                <br>
+                <button class="text-center font-bold border bg-black text-white shadow-md hover:shadow-lg py-2 px-4 rounded-md" id="bt">Buy Now</button>
+                <button class="text-center font-bold text-sm border bg-black text-white shadow-md hover:shadow-lg py-2 px-4 rounded-md">More Info</button>
+            </h4>
+        </div>
+
+        <div class="flex space-x-4 ml-2 float-left rounded-3xl" id="div1">
+            <div class="bg-black rounded-2xl w-96 h-60 flex items-center p-4" >
+                <img src="/images/store-card-40-ipad-air-202405.jpg" class="h-56 rounded-3xl">
+                <div class="ml-14">
+                    <h4 class="text-rose-50 font-semibold">iPad Air 11</h4>
+                    <ul class="text-rose-50 margin-bottom-20">
+                        <li>128GB</li>
+                        <li>256GB</li>
+                        <li>512GB</li>
+                        <li>1TB</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-black rounded-2xl w-96 h-60 flex items-center overflow-hidden">
+                <img src="/images/store-card-40-ipad-pro-202405.jpg" class="h-64 rounded-3xl">
+                <div class="ml-0">
+                    <h4 class="text-rose-50 font-semibold">iPad Pro 11</h4>
+                    <ul class="text-rose-50 margin-bottom-20">
+                        <li>128GB</li>
+                        <li>256GB</li>
+                        <li>512GB</li>
+                        <li>1TB</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-black rounded-2xl w-96 h-60 flex items-center overflow-hidden">
+                <a href="https://www.apple.com/in/iphone-15/" target="_blank">
+                    <img src="/images/F5ME5VvWgAAEPQ5.jpg">
+                </a>
+            </div>
+
+            <div class="bg-black text-white w-32 text-center rounded-2xl">
+                <h4 class="text-rose-50 font-semibold">
+                    < Iphone 15
+                </h4>
+                <ul class="text-rose-50 margin-bottom-20">
+                    <li>128GB</li>
+                    <li>256GB</li>
+                    <li>512GB</li>
+                    <li>1TB</li>
+                </ul>
+                <h4 class="text-rose-50 font-semibold">Iphone15 Pro ></h4>
+                <ul class="text-rose-50 margin-bottom-20">
+                    <li>128GB</li>
+                    <li>256GB</li>
+                    <li>512GB</li>
+                    <li>1TB</li>
+                </ul>
+            </div> 
+            <img src="/images/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg" class="rounded-3xl ml-4 h-64">
+        </div>
+        <div class="clear-both"></div>
+    <div class="bg-white">
+    <div class="bg-black space-y-3 mt-1" id="div" >
+    <div class="pl-28 pt-4 h-96" >
+        <img src="/images/store-card-40-ipad-air-202405.jpg" class="rounded-2xl h-80 float-left">  
+        <h1 class="text-white flex justify-center text-3xl underline">Ipad Air</h1>
+        <div class="flex justify-center ">
+        <ul class="text-white mt-7 pl-40 text-2xl">
+            <li>128GB</li>
+            <li>256GB</li>
+            <li>512GB</li>
+            <li>1TB</li>
+            <li>Wi-Fi models</li>
+            <Li>579 g (1.28 lb.)</Li>
+            <Li>Wi-Fi + Cellular models</Li>
+            <Li>582 g (1.28 lb.)</Li>
+            
+        </ul> 
+    </div>
+    </div>
+    
+    
+    </div>
+    <div class="bg-black space-y-3 mt-1" id="div" >
+        <div class="pl-28 pt-4 h-96" >
+            <img src="/images/store-card-40-ipad-pro-202405.jpg" class="rounded-2xl h-80 float-left">  
+            <h1 class="text-white flex justify-center text-3xl underline">Ipad Pro</h1>
+            <div class="flex justify-center ">
+            <ul class="text-white mt-7 pl-40 text-2xl">
+                <li>128GB</li>
+                <li>256GB</li>
+                <li>512GB</li>
+                <li>1TB</li>
+                <li>Wi-Fi models</li>
+                <Li>579 g (1.28 lb.)</Li>
+                <Li>Wi-Fi + Cellular models</Li>
+                <Li>582 g (1.28 lb.)</Li>
+                
+            </ul> 
+        </div>
+        </div>
+        
+        
+        </div>
+        <div class="bg-black space-y-3 mt-1" id="div" >
+            <div class="pl-28 pt-4 h-96" >
+                <img src="/images/F5ME5VvWgAAEPQ5.jpg" class="rounded-2xl h-80 float-left">  
+                <h1 class="text-white flex justify-center text-3xl underline">Iphone 15</h1>
+                <div class="flex justify-center ">
+                <ul class="text-white mt-7 pl-40 text-2xl">
+                    <li>128GB</li>
+                    <li>256GB</li>
+                    <li>512GB</li>
+                    <li>1TB</li>
+                    <li>Wi-Fi models</li>
+                    <Li>579 g (1.28 lb.)</Li>
+                    <Li>Wi-Fi + Cellular models</Li>
+                    <Li>582 g (1.28 lb.)</Li>
+                    
+                </ul> 
+            </div>
+            </div>
+            
+            
+            </div>
+</div>
+    </main>
+    
+
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">Apple™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+    
+</body>
+</html>
+
+[CSS PART}
+#div{
+    animation:fade-in linear;
+    animation-timeline: view();
+
+}
+@keyframes fade-in{
+    from {scale: .8; opacity: 1;}
+    to {scale: 1; opacity: 1;}
+
+}
+#bt {
+    animation: blink 5s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
