@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-black "> 
+    <div class="grid grid-cols-4 gap-4 bg-gray-500 w-64 h-96 text-black border-2 border-white">
+        <h1 class="text-white ml-1 mt-1">Calculator</h1>
+        <div class="bg-gray-600 col-span-4 row-span-2 text-right text-3xl mr-1 " id="display"></div>
+        
+        <button onclick="append('7')" class="bg-gray-200 p-1 ml-1  hover:bg-gray-400">7</button>
+        <button onclick="append('8')" class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">8</button>
+        <button onclick="append('9')" class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">9</button>
+        <button onclick="append('/')" class="bg-orange-400 p-1 ml-1 mr-1 hover:bg-orange-300 ">/</button>
+
+        <button onclick="append('6')"  class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">6</button>
+        <button onclick="append('5')"  class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">5</button>
+        <button onclick="append('4')"  class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">4</button>
+        <button onclick="append('*')"  class="bg-orange-400 p-1 ml-1 mr-1 hover:bg-orange-300">*</button>
+
+        <button onclick="append('3')"   class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">3</button>
+        <button  onclick="append('2')" class="bg-gray-200 p-1 ml-1 hover:bg-gray-400">2</button>
+        <button onclick="append('1')"  class="bg-gray-200 p-1 ml-1 hover:bg-gray-400 ">1</button>
+        <button onclick="append('-')"  class="bg-orange-400 p-1 ml-1 mr-1 hover:bg-orange-300">-</button> 
+        <button onclick="append('0')" class="bg-orange-400 p-2 ml-1 col-span-3  hover:bg-orange-300">0</button> 
+        <button onclick="append('+')" class="bg-orange-400 p-2 ml-1 mr-1  hover:bg-orange-300">+</button> 
+    
+        <button onclick="calculate()"  class="bg-orange-400 p-1  col-span-3  hover:bg-orange-300">=</button> 
+        <button onclick="clearDisplay()"  class="bg-orange-400 p-1  col-span-1 hover:bg-orange-300">C</button> 
+       
+        
+
+
+
+
+       <script src="java.js"></script>
+    </div>
+</body>
+
+</html>
