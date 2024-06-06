@@ -41,3 +41,25 @@
 </body>
 
 </html>
+
+java.js
+
+function append(input) {
+    let display = document.getElementById("display");
+        display.innerText += input;
+    }
+    function clearDisplay() {
+        const display = document.getElementById('display');
+        display.innerText = '';
+    }
+    function calculate(){
+        const display = document.getElementById('display');
+        try {
+            display.innerText=eval(display.innerText)
+        } catch (error) {
+            display.innerText="error"
+        }
+       
+    }
+
+  
